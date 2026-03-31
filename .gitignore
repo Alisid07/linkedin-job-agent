@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Project specific
+data/application_history.json
+output/
+*.log
+
+# API Keys (NEVER commit these!)
+.env
+config_local.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+user_profile:
+  name: "Your Name"
+  email: "your.email@example.com"
+  phone: "+49 123 456789"
+  location: "Munich, Germany"
+  summary: "Software engineering student with focus on AI/ML. 3+ years Python experience."
+  experience: |
+    - Developed machine learning pipelines using Python and TensorFlow
+    - Built web applications with React and Node.js
+    - Experience with cloud platforms (AWS, GCP)
+  skills:
+    - Python
+    - Machine Learning
+    - TensorFlow
+    - React
+    - Node.js
+    - Docker
+
+llm:
+  primary: "openai"
+  fallback: "anthropic"
+  max_concurrent: 2
